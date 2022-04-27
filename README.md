@@ -1,6 +1,6 @@
-# github-download
+# Graph-cut
 
-`github-download` has the implementation of quilting of a image. the approach followed is taking an random patch of a given image and overlapping the pixels partially with the new or already existing pixels. usually the overlapping region is determined initially by the block size. For example, the implementation is on 3x3 and taken a 20 patch dimension for the test image i have taken. But to determine which pixels to be considered for overlap is possible by the graph which created and generated the weights using algorithm. Based on this grpah cut output we get the idea of which pixels should be considered for final patch.
+`Graph-cut` has the implementation of quilting of a image. the approach followed is taking an random patch of a given image and overlapping the pixels partially with the new or already existing pixels. usually the overlapping region is determined initially by the block size. For example, the implementation is on 3x3 and taken a 20 patch dimension for the test image i have taken. But to determine which pixels to be considered for overlap is possible by the graph which created and generated the weights using algorithm. Based on this grpah cut output we get the idea of which pixels should be considered for final patch.
 
 ## Installing
 
